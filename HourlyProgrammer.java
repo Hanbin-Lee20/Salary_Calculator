@@ -1,15 +1,5 @@
 package lv2_lab6;
 /**
- * File name: HourlyProgrammer.java
- * Author: Hanbin Lee
- * Course: CST8284 - OOP
- * Assignment: Lab 6
- * Professor: Hesham Saadawi
- * Purpose: adding extra information on programmer.jva
- * Class list: HourlyProgrammer
- */
-
-/**
  * This class provides hourly paid programmer's information
  * @author HanbinLee
  *
@@ -83,10 +73,6 @@ public HourlyProgrammer(String firstName, String lastName,
 	} 
 
 	//calculate earnings; override abstract method earnings in Programmer
-	
-	//MODIFY THIS PORTION. WHY WILL THIS PORTION OF YOUR CODE REQUIRE MODIFICATION?
-	//PROVIDE THE ANSWER TO THIS QUESTION TO YOUR PROFESSOR DURING DEMO
-	
 	@Override                                                           
 	public double getPaymentAmount() {                                            
 	if (getHours() <= 40) { // no overtime                           
@@ -104,10 +90,7 @@ public HourlyProgrammer(String firstName, String lastName,
 				super.toString(), 
 				"hourly wage", getWage(), ";", "hours worked", getHours());
 	}
-//TO DO: COMEPLETE THIS PORTION. Format your solution according to sample output.     
-//START     
-// INSERT YOUR CODE
-//END
+
 
                      
 }
