@@ -19,4 +19,25 @@ This repository contains several java files that calculates different types of p
    These files are subclass of Programmer.java.
    By using super() keyword, each of class gets basic info from Programmer.java.
    They also add their own features.
+
+5. PaymeInterfaceTest.java:
    
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
