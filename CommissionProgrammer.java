@@ -1,15 +1,5 @@
 package lv2_lab6;
 /**
- * File name: CommissionProgrammer.java
- * Author: Hanbin Lee
- * Course: CST8284 - OOP
- * Assignment: Lab 6
- * Professor: Hesham Saadawi
- * Purpose: adding extra infirmation on programmer.java
- * Class list: CommissionProgrammer
- */
-
-/**
  * This class contains Commission programmer's information
  * @author HanbinLee
  *
@@ -87,19 +77,15 @@ public void setCommissionRate(double commissionRate) {
 	this.commissionRate = commissionRate;
 	}
 
-/**
- * return commission rate
- * @return
- */
-public double getCommissionRate() {
-	return commissionRate;
-} 
+	/**
+	 * return commission rate
+	 * @return
+	 */
+	public double getCommissionRate() {
+		return commissionRate;
+	} 
 
 	//calculate earnings; override abstract method earnings in Programmer.
-	
-	//MODIFY THIS PORTION. WHY WILL THIS PORTION OF YOUR CODE REQUIRE MODIFICATION?
-	//PROVIDE THE ANSWER TO THIS QUESTION TO YOUR PROFESSOR DURING DEMO
-	
 	@Override                                                           
 	public double getPaymentAmount() {                                            
 		return getCommissionRate() * getGrossSales();                    
@@ -110,8 +96,7 @@ public double getCommissionRate() {
 	 */
 	@Override      
 	public String toString() {
-		return String.format("commision %s\n%s: $%.2f%s %s: %.2f", super.toString(), 
-															"gross sales", getGrossSales(),";", "commission rates", getCommissionRate());
+		return String.format("commision %s\n%s: $%.2f%s %s: %.2f", super.toString(), "gross sales", getGrossSales(),";", "commission rates", getCommissionRate());
 	}
 
 }
