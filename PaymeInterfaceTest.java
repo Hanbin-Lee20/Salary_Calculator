@@ -14,7 +14,7 @@ public class PaymeInterfaceTest  {
 	paymeObjects[2] = new SalariedProgrammer("Chioma", "Chidimma", "345-67-0001", 9, 2023, 320.00);
 	paymeObjects[3] = new HourlyProgrammer("Amara", "Chukwu", "234-56-7770", 9, 2023, 18.95, 40.00);
 	paymeObjects[4] = new CommissionProgrammer("Peter", "Goodman", "123-45-6999", 9, 2023, 16500.00, 0.44);
-	paymeObjects[5] = new BasePlusCommissionProgrammer("Hanbin", "Lee", "321-45-8673", 9, 2023, 1200.00, 0.04, 720.00);
+	paymeObjects[5] = new BasePlusCommissionProgrammer("John", "Doe", "321-45-8673", 9, 2023, 1200.00, 0.04, 720.00);
     
 	 System.out.println("\nPayment for Invoices and Programmers are processed polymorphically:\n"); 
 	
