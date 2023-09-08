@@ -1,34 +1,20 @@
 package lv2_lab6;
-/**
- * File name: PaymeInterfaceTest2.java
- * Author: Hanbin Lee
- * Course: CST8284 - OOP
- * Assignment: Lab 6
- * Professor: Hesham Saadawi
- * Purpose: test every super and subclasses output same result as sample output provided
- * Class list: PaymeInterfaceTest
- */
 
 public class PaymeInterfaceTest2  {
 
 	public static void main(String[] args) {
 		
-	 //TO DO: IN THIS PORTION OF THE CODE, SEVERAL CHANGES SHOULD BE MADE:
 	// CREATE SIX-ELEMENTS Payme array HERE
 	
 	Payme[] paymeObjects = new Payme[6];
 	
-	// TO DO: POPULATE THE ARRAY YOU CREATED WITH OBJECTS THAT IMPLEMENT Payable
-	//CHECK THE OUTPUT FILE AND REUSE EXACTLY THE DETAILS PROVIDED SUCH AS FIRST NAME
-	// LAST NAME, SOCIAL INSURANCE NUMBER, ETC.
-	
-	//2 objects of invoice class
+	//objects of invoice class
 	paymeObjects[0] = new Invoice("22776", "brakes", 3, 300.00);
-    paymeObjects[1] = new Invoice("33442", "gear", 5, 90.99);
-    paymeObjects[2] = new SalariedProgrammer("Chioma", "Chidimma", "345-67-0001", 9, 2023, 320.00);
-    paymeObjects[3] = new HourlyProgrammer("Amara", "Chukwu", "234-56-7770", 9, 2023, 18.95, 40.00);
-    paymeObjects[4] = new CommissionProgrammer("Peter", "Goodman", "123-45-6999", 9, 2023, 16500.00, 0.44);
-    paymeObjects[5] = new BasePlusCommissionProgrammer("Hanbin", "Lee", "321-45-8673", 9, 2023, 1200.00, 0.04, 720.00);
+	paymeObjects[1] = new Invoice("33442", "gear", 5, 90.99);
+	paymeObjects[2] = new SalariedProgrammer("Chioma", "Chidimma", "345-67-0001", 9, 2023, 320.00);
+	paymeObjects[3] = new HourlyProgrammer("Amara", "Chukwu", "234-56-7770", 9, 2023, 18.95, 40.00);
+	paymeObjects[4] = new CommissionProgrammer("Peter", "Goodman", "123-45-6999", 9, 2023, 16500.00, 0.44);
+	paymeObjects[5] = new BasePlusCommissionProgrammer("Hanbin", "Lee", "321-45-8673", 9, 2023, 1200.00, 0.04, 720.00);
     
 	 System.out.println("\nPayment for Invoices and Programmers are processed polymorphically:\n"); 
 	
@@ -54,8 +40,7 @@ public class PaymeInterfaceTest2  {
 //	    	System.out.printf("%s: $%.2f \n\n", "payment due", currentPayme.getPaymentAmount());
 //	    }
 	    
-	// TO DO: INSERT YOUR PRINT STATEMENT HERE: ENSURE THAT YOUR 
-	// OUTPUT FOLLOWS THE OUTPUT SAMPLE PROVIDED
+
 	
 	
 	
