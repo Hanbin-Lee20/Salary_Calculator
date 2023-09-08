@@ -26,7 +26,7 @@ This repository contains several java files that calculates different types of p
    Used printf for clear view.
 
 6. PaymeInterfaceTest2.java:
-   In this file, the outcome is basically same, but used different way to display it.
+   In this file, the outcome is almost same, but used different way to display it.
    By overriding display() in Payme Interface, it is possible to get same outcome with simplified code.
    
    
