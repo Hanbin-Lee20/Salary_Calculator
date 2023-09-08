@@ -4,7 +4,7 @@ public class PaymeInterfaceTest2  {
 
 	public static void main(String[] args) {
 		
-	// CREATE SIX-ELEMENTS Payme array HERE
+	//SIX-ELEMENTS Payme array
 	
 	Payme[] paymeObjects = new Payme[6];
 	
