@@ -1,19 +1,6 @@
 package lv2_lab6;
-/**
- * File name: Invoice.java
- * Author: Hanbin Lee
- * Course: CST8284 - OOP
- * Assignment: Lab 6
- * Professor: Hesham Saadawi
- * Purpose: containing invoice information
- * Class list: Invoice
- */
-//LAB 6 - CST8284
-//LAB 6: Invoice.java
 
 //This is the Invoice class which is an UNRELATED CLASS to the Programmer superclass
-
-//The Invoice class implements Payme interface. NO MODIFICATION IS REQUIRED HERE!!!
 
 /**
  * Class that stores invoice item information
