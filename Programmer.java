@@ -1,14 +1,5 @@
 package lv2_lab6;
-/**
- * File name: Programmer.java
- * Author: Hanbin Lee
- * Course: CST8284 - OOP
- * Assignment: Lab 6
- * Professor: Hesham Saadawi
- * Purpose: super class of every ...Programmer subclasses.
- * Class list: Programmer
- */
-
+=
 /**
  * Parent class of Salaried, Hourly, Commission and BasePlusCommissionProgrammer classes.
  * This class can have abstract methods without providing their implementation in the class itself.
@@ -43,11 +34,6 @@ public abstract class Programmer implements Payme{
 		 lastName = last;
 		 socialSecurityNumber = ssn;
 	}
-
-	/** CHANGES ARE REQUIRED IN THIS SECTION. 
-	* THINK OF THE BEST WAY TO ACCESS PRIVATE VARIABLES.
-	* IN THIS PORTION OF YOUR CODE INCLUDE ALL OF SUCH THAT APPLIES.
-	*/
 	
 	/*
 	 * Sets the first name value
@@ -98,11 +84,8 @@ public abstract class Programmer implements Payme{
 							"social security number", getSocialSecurityNumber());
 		} 
 
-	//Note: We do NOT implement Payme method getPaymentAmount() here. 
-	// THEREFORE, TO AVOID A COMPILATION ERROR, YOU SHOULD DECLARE THIS CLASS AS....??
 	
 	
-//	public abstract double getPaymentAmount(); /** No implementation here. DO YOU KNOW WHY? What should this method be?*/
 	} 
 
 
