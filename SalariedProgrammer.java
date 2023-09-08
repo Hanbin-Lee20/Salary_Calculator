@@ -1,13 +1,4 @@
 package lv2_lab6;
-/**
- * File name: SalariedProgrammer.java
- * Author: Hanbin Lee
- * Course: CST8284 - OOP
- * Assignment: Lab 6
- * Professor: Hesham Saadawi
- * Purpose: adding extra information on programmer class
- * Class list: SalariedProgrammer
- */
 
 /**
  * This class inherits from Programmer class
@@ -60,11 +51,6 @@ public class SalariedProgrammer extends Programmer  {
 	} 
 
 	//calculate earnings; override abstract method earnings in Programmer
-	
-	//MODIFY THIS PORTION. WHY WILL THIS PORTION OF YOUR CODE REQUIRE MODIFICATION?
-	//PROVIDE THE ANSWER TO THIS QUESTION TO YOUR PROFESSOR DURING DEMO
-	
-	
 	/**
 	 * returns weekly salary value
 	 */
@@ -80,9 +66,6 @@ public class SalariedProgrammer extends Programmer  {
 				super.toString(), 
 				"weekly salary", getWeeklySalary());
 	}
-//TO DO: COMEPLETE THIS PORTION. Format your solution according to sample output.     
-//START     
-// INSERT YOUR CODE
-//END
+
 }
 
