@@ -1,12 +1,5 @@
 package lv2_lab6;
-/**
- * File name: Payme.java
- * Author: Hanbin Lee
- * Course: CST8284 - OOP
- * Assignment: Lab 6
- * Professor: Hesham Saadawi
- * Purpose: interface for Programmer and Invoice class
- */	
+
 public interface Payme {
 	
 	/**
